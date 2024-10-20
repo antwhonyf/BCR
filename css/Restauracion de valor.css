@@ -32,12 +32,12 @@ body {
 }
 
 .imagen_principal {
-    opacity: 0.8;
     border-radius: 50%;
     height: 60dvh;
     align-content: center;
     margin: auto;
     max-width: 500px;
+    margin: 1px solid #0000;
 }
 
 .texto_bienvenida {
