@@ -34,11 +34,10 @@ body {
 .imagen_principal {
     opacity: 0.8;
     border-radius: 50%;
-    height: 50dvh;
+    height: 60dvh;
     align-content: center;
     margin: auto;
     max-width: 500px;
-    border: 5px, solid,  white;
 }
 
 .texto_bienvenida {
