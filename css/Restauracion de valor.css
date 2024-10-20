@@ -5,7 +5,7 @@ body {
     align-content: center;
     text-align: center;
     margin: auto;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     color: white;
 }
 
@@ -17,13 +17,15 @@ body {
 
 .principal_Header {
     margin: auto;
-    width: 100dvw;
+    width: 100%;
     height: 100dvh;
     display: flex;
     flex-direction: column;
     background-image: url(../img/fondo.jpg);
     background-size: 100dvh ;
     background-size: cover;
+    display: flex;
+    flex-grow: 1;
 }
 
 .titulo_Principal{
@@ -34,14 +36,15 @@ body {
 
 .imagen_principal {
     border-radius: 50%;
-    height: 60dvh;
-    align-content: center;
     margin: auto;
-    max-width: 500px;
+    min-height: 5dvh;
+    max-height: 60dvh;
+    max-width: 100%;
 }
 
 .texto_bienvenida {
     font-size: 3.5dvh;
     margin: 0px 5dvw 20dvh 5dvw;
     text-wrap: wrap;
+    flex-grow: 1;
 }
