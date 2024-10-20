@@ -21,7 +21,7 @@ body {
     height: 100dvh;
     display: flex;
     flex-direction: column;
-    background-image: url(../img/fondo.jpeg);
+    background-image: url(../img/fondo.jpg);
     background-size: 100dvh ;
     background-size: cover;
 }
