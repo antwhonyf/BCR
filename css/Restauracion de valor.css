@@ -23,6 +23,7 @@ body {
     flex-direction: column;
     background-image: url(../img/fondo.jpeg);
     background-size: 100dvh ;
+    background-size: cover;
 }
 
 .titulo_Principal{
