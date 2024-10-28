@@ -10,7 +10,7 @@
 
 html {
     scroll-behavior: smooth;
-
+    scroll-behavior:calc(10dvh - smooth);
 }
 
 body {
@@ -59,8 +59,8 @@ body {
 /*CAPA OSCURA PARA LA IMAGEN DEL LAYAOUT*/
 
 .layaout__header {
-    height: 100dvh;
-    width: 100dvw;
+    height: 100vh;
+    width: 100vw;
     background-color: rgba(0, 0, 0, 0.2);
     position: absolute;
     z-index: 2;
@@ -137,7 +137,7 @@ body {
 }
 
 .layaout__gif {
-    width: 4dvw;
+    width: 4vw;
     min-width: 30px;
     max-width: 60px;
     margin: auto;
@@ -170,8 +170,8 @@ nav {
 }
 
 nav li {
-    margin: 2dvh 1dvw;
-    padding: 2dvh 2dvw;
+    margin: 2vh 1vw;
+    padding: 2vh 2vw;
     transition: linear 0.1s;
     border-radius: 40px;
 }
@@ -181,7 +181,7 @@ nav li {
 }
 
 .lista2 {
-    margin: 0px 2dvw;
+    margin: 0px 2vw;
     padding: 5px 10px;
     background-color: white;
     border-radius: 20px;
@@ -254,7 +254,7 @@ nav li {
 .header__nav-list {
     display: flex;
     flex-direction: column;
-    height: 40dvh;
+    height: 40vh;
     margin: auto;
     justify-content: space-evenly;
 }
@@ -437,7 +437,7 @@ body {
         flex-direction: row;
         padding: 20px;
         background-color: transparent;
-        height: 90dvh;
+        height: 90vh;
         max-width: 70dvw;
     }
 
@@ -704,9 +704,9 @@ body {
 
 .redes{
     border-radius: 25px;
-    height: 10dvh;
+    height: 10vh;
     margin: auto;
-    width: 75dvw;
+    width: 75vw;
     background-color: #1f2023;
     transition: linear 0.4s;
     display: flex;
