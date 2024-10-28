@@ -662,7 +662,7 @@ body {
 
 .mision__vision__item {
     flex-grow: 1;
-    height: 95dvh;
+    height: 80dvh;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -686,7 +686,7 @@ body {
 .mision__vision__text {
     margin: 0 1dvw;
     color:#ccccce;
-    font-size:  calc(0.5dvh + 0.2dvw );
+    font-size:  calc(1dvh + 0.5dvw );
     text-wrap: balance;
 }
 
