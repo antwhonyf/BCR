@@ -10,7 +10,7 @@
 
 html {
     scroll-behavior: smooth;
-    scroll-behavior:calc(10dvh - smooth);
+    scroll-behavior:calc(10vh - smooth);
 }
 
 body {
@@ -25,18 +25,18 @@ body {
     font-family: "Bebas Neue", sans-serif;
     font-weight:  400;
     font-style:normal;
-    max-width: 100dvw;
+    max-width: 100vh;
 }
 
 /* LAYAOUT GENERAL */
 .layaout {
     margin: auto;
     width: 100%;
-    height: 100dvh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     background-image: url(../img/fondo.jpg);
-    background-size: 100dvh ;
+    background-size: 100vh ;
     background-size:cover;
     background-position: top;
     display: flex;
@@ -50,8 +50,8 @@ body {
     position: relative;
     top: 0;
     bottom: 0;
-    width: 100dvw;
-    height: 100dvh;
+    width: 100vh;
+    height: 100vh;
     object-fit: cover;
     z-index: 1;
 }
@@ -79,8 +79,8 @@ body {
     text-align: center;
     align-items: center;
     z-index: 4;
-    height: 100dvh;
-    width: 100dvw;
+    height: 100vh;
+    width: 100vh;
 }
 
 /* Sub-Contenedor principal */ 
@@ -102,17 +102,17 @@ body {
 }
 
 .titulo_Principal{
-    margin-top: 10dvh;
-    letter-spacing: 0.2dvw;
-    font-size: calc(3dvh + 2dvw);
+    margin-top: 10vh;
+    letter-spacing: 0.2vh;
+    font-size: calc(3vh + 2vh);
     font-family: "Bebas Neue", sans-serif;
 }
 
 .imagen_principal {
     border-radius: 50%;
     margin: auto;
-    min-height: 14dvh;
-    max-height: 49dvh;
+    min-height: 14vh;
+    max-height: 49vh;
     max-width: 80%;
     filter: drop-shadow( 0 0 10px #0000);
     transition: 0.4s;
@@ -123,7 +123,7 @@ body {
 }
 
 .texto_bienvenida {
-    font-size: calc(2dvh + 1dvw);
+    font-size: calc(2vh + 1vh);
     text-wrap: wrap;
     flex-grow: 1;
     font-family: "Bebas Neue", sans-serif;
@@ -133,7 +133,7 @@ body {
 .gif {
     display: flex;
     flex-direction: column;
-    margin-bottom: 2dvh;
+    margin-bottom: 2vh;
 }
 
 .layaout__gif {
@@ -166,7 +166,7 @@ nav {
 .lista {
     display: inline-flex;
     flex-wrap: nowrap;
-    width: 100dvw;
+    width: 100vh;
 }
 
 nav li {
@@ -286,7 +286,7 @@ a {
 }
 
 .header__nav-item {
-    margin: 0px 0.5dvw;
+    margin: 0px 0.5vh;
 }
 
 
@@ -343,8 +343,8 @@ body {
 
 @media screen and (max-width: 650px) {
     .Inicio, .Vision, .Mision, .Dispositivos, .Nosotros {
-        padding: 1dvh 2dvw;
-        margin: 1dvw;
+        padding: 1vh 2vh;
+        margin: 1vh;
     }
 
     .logo, .lista2 {
@@ -438,11 +438,11 @@ body {
         padding: 20px;
         background-color: transparent;
         height: 90vh;
-        max-width: 70dvw;
+        max-width: 70vh;
     }
 
     .info__data-container {
-        max-width: 30dvw;
+        max-width: 30vh;
         background-color: #FFF;
         display: flex;
         align-items: center;
@@ -463,7 +463,7 @@ body {
     }
 
     .info__img-container {
-        max-width: 40dvw;
+        max-width: 40vh;
         border-radius: 25px 0 0 25px;
         box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.803);
     }
@@ -472,8 +472,8 @@ body {
         max-width: 100%;
         height: 100%;
         object-fit: cover;
-        max-height: 100dvh;
-        width: 40dvw;
+        max-height: 100vh;
+        width: 40vh;
         border-radius: 25px 0 0 25px;
     }
 
@@ -496,7 +496,7 @@ body {
     box-shadow: 0px 0px 20px 8px #47a;
     background-color: #1f2023;
     color: white;
-    min-height: 100dvh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -507,16 +507,16 @@ body {
 .dispositivos__project-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    max-width: 100dvw;
+    max-width: 100vh;
     margin: 0 auto;
     width: 100%;
     gap: 12px;
     padding: 12px;
-    min-height: 150dvh;
+    min-height: 150vh;
 }
 
 .dispositivos__title{
-    margin: 2dvh auto;
+    margin: 2vh auto;
 }
 
 .dispositivos__project {
@@ -609,19 +609,19 @@ body {
 }
 
 .dispositivos__title {
-    font-size: calc(2dvh + 1.5dvw );
+    font-size: calc(2vh + 1.5vh );
 }
 
 .dispositivos__subtitle {
-    font-size: calc(1.5dvh + 1dvw );
-    margin: 2dvh auto;
+    font-size: calc(1.5vh + 1vh );
+    margin: 2vh auto;
 }
 
 /* ---------- dispositivos QUERIES ---------- */
 
 @container dispositivos (min-width: 840px) {
     .dispositivos__project-container {
-        max-width: 70dvw;
+        max-width: 70vh;
         grid-template-columns: 1fr 1fr 1fr;
     }
     .dispositivos__project:nth-child(1) {
@@ -652,22 +652,22 @@ body {
 /*Mision y vision*/
 
 .mision__vision {
-    height: 100dvh;
+    height: 100vh;
     max-height: max-content;
 }
 
 .mision__vision__separator {
-    margin: 5dvh auto;
+    margin: 5vh auto;
     height: max-content;
-    width: 75dvw;
+    width: 75vh;
     display: flex;
     flex-direction: row;
-    gap: 5dvw;
+    gap: 5vh;
 }
 
 .mision__vision__item {
     flex-grow: 1;
-    height: 70dvh;
+    height: 70vh;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -681,24 +681,24 @@ body {
 }
 
 .mision__vision__title {
-    font-size:  calc(2dvh + 1.5dvw );
+    font-size:  calc(2vh + 1.5vh );
     color: #48e;
     font-style: italic;
     text-decoration: underline;
 }
 
 .mision__vision__text {
-    margin: 0 3dvw;
+    margin: 0 3vh;
     color:#ccccce;
-    font-size:  calc(1.5dvh + 1dvw );
+    font-size:  calc(1.5vh + 1vh );
     text-wrap: balance;
 }
 
 @media screen and (max-width:840px) {
     .mision__vision__separator {
         flex-direction: column;
-        width: 80dvw;
-        max-height: 80dvh;
+        width: 80vh;
+        max-height: 80vh;
     }
 }
 
@@ -730,7 +730,7 @@ body {
 
 /*:::::Pie de Pagina*/
 .pie-pagina{
-    width: 100dvw;
+    width: 100vh;
     background-color: #1f2023;
 }
 .pie-pagina .grupo-1{
@@ -787,7 +787,7 @@ body {
 }
 
 .logo__footer {
-    max-width: 10dvw;
+    max-width: 10vh;
     min-width: 64px;
     filter: drop-shadow( 0 0 10px #0000);
     transition: 0.4s;
@@ -809,7 +809,7 @@ body {
 }
 
 .text-final, .box, .box-title {
-    font-size: calc(1.5dvh + 0.7dvw);
+    font-size: calc(1.5vh + 0.7vh);
 }
 
 @media screen and (max-width:840px){
@@ -821,7 +821,7 @@ body {
     }
 
     .box {
-        max-width: 80dvw;
+        max-width: 80vh;
         margin: auto;
     }
 }
