@@ -10,7 +10,7 @@
 
 html {
     scroll-behavior: smooth;
-    scroll-behavior:calc(10vh - smooth);
+    scroll-behavior:calc(10dvh - smooth);
 }
 
 body {
@@ -25,18 +25,18 @@ body {
     font-family: "Bebas Neue", sans-serif;
     font-weight:  400;
     font-style:normal;
-    max-width: 100vh;
+    max-width: 100dvw;
 }
 
 /* LAYAOUT GENERAL */
 .layaout {
     margin: auto;
     width: 100%;
-    height: 100vh;
+    height: 100dvh;
     display: flex;
     flex-direction: column;
     background-image: url(../img/fondo.jpg);
-    background-size: 100vh ;
+    background-size: 100dvh ;
     background-size:cover;
     background-position: top;
     display: flex;
@@ -50,8 +50,8 @@ body {
     position: relative;
     top: 0;
     bottom: 0;
-    width: 100vh;
-    height: 100vh;
+    width: 100dvw;
+    height: 100dvh;
     object-fit: cover;
     z-index: 1;
 }
@@ -59,8 +59,8 @@ body {
 /*CAPA OSCURA PARA LA IMAGEN DEL LAYAOUT*/
 
 .layaout__header {
-    height: 100vh;
-    width: 100vw;
+    height: 100dvh;
+    width: 100dvw;
     background-color: rgba(0, 0, 0, 0.2);
     position: absolute;
     z-index: 2;
@@ -79,8 +79,8 @@ body {
     text-align: center;
     align-items: center;
     z-index: 4;
-    height: 100vh;
-    width: 100vh;
+    height: 100dvh;
+    width: 100dvw;
 }
 
 /* Sub-Contenedor principal */ 
@@ -102,17 +102,17 @@ body {
 }
 
 .titulo_Principal{
-    margin-top: 10vh;
-    letter-spacing: 0.2vh;
-    font-size: calc(3vh + 2vh);
+    margin-top: 10dvh;
+    letter-spacing: 0.2dvw;
+    font-size: calc(3dvh + 2dvw);
     font-family: "Bebas Neue", sans-serif;
 }
 
 .imagen_principal {
     border-radius: 50%;
     margin: auto;
-    min-height: 14vh;
-    max-height: 49vh;
+    min-height: 14dvh;
+    max-height: 49dvh;
     max-width: 80%;
     filter: drop-shadow( 0 0 10px #0000);
     transition: 0.4s;
@@ -123,7 +123,7 @@ body {
 }
 
 .texto_bienvenida {
-    font-size: calc(2vh + 1vh);
+    font-size: calc(2dvh + 1dvw);
     text-wrap: wrap;
     flex-grow: 1;
     font-family: "Bebas Neue", sans-serif;
@@ -133,11 +133,11 @@ body {
 .gif {
     display: flex;
     flex-direction: column;
-    margin-bottom: 2vh;
+    margin-bottom: 2dvh;
 }
 
 .layaout__gif {
-    width: 4vw;
+    width: 4dvw;
     min-width: 30px;
     max-width: 60px;
     margin: auto;
@@ -155,7 +155,7 @@ nav {
     background-color: #002975;
     color: rgb(255, 255, 255);
     display: inline-flex;
-    width: 100vw;
+    width: 100dvw;
     align-items: center;
     justify-content: space-between;
     position: sticky;
@@ -166,12 +166,12 @@ nav {
 .lista {
     display: inline-flex;
     flex-wrap: nowrap;
-    width: 100vh;
+    width: 100dvw;
 }
 
 nav li {
-    margin: 2vh 1vw;
-    padding: 2vh 2vw;
+    margin: 2dvh 1dvw;
+    padding: 2dvh 2dvw;
     transition: linear 0.1s;
     border-radius: 40px;
 }
@@ -181,7 +181,7 @@ nav li {
 }
 
 .lista2 {
-    margin: 0px 2vw;
+    margin: 0px 2dvw;
     padding: 5px 10px;
     background-color: white;
     border-radius: 20px;
@@ -246,15 +246,15 @@ nav li {
     display: none;
     background-color: #1f2023;
     position: absolute;
-    height: 115vh;
-    width: 100vw;
+    height: 115dvh;
+    width: 100dvw;
     z-index: -1;
 }
 
 .header__nav-list {
     display: flex;
     flex-direction: column;
-    height: 40vh;
+    height: 40dvh;
     margin: auto;
     justify-content: space-evenly;
 }
@@ -286,7 +286,7 @@ a {
 }
 
 .header__nav-item {
-    margin: 0px 0.5vh;
+    margin: 0px 0.5dvw;
 }
 
 
@@ -313,11 +313,11 @@ a {
     }
 
     .texto_bienvenida {
-        font-size: 3.5vw;
+        font-size: 3.5dvw;
     }
 
     .titulo_Principal {
-        font-size: 5vw;
+        font-size: 5dvw;
     }
 }
 
@@ -343,8 +343,8 @@ body {
 
 @media screen and (max-width: 650px) {
     .Inicio, .Vision, .Mision, .Dispositivos, .Nosotros {
-        padding: 1vh 2vh;
-        margin: 1vh;
+        padding: 1dvh 2dvw;
+        margin: 1dvw;
     }
 
     .logo, .lista2 {
@@ -359,7 +359,7 @@ body {
 }
 
 .info__wrapper {
-    min-height: 90vh;
+    min-height: 90dvh;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -369,7 +369,7 @@ body {
 }
 
 .info__data-container {
-    margin: 0 auto 3vh auto;
+    margin: 0 auto 3dvh auto;
     height: 100%;
     max-width: 600px;
     padding: 12px;
@@ -378,12 +378,12 @@ body {
 }
 
 .info__description {
-    font-size: 2vh;
+    font-size: 2dvh;
     text-wrap: balance;
 }
 
 .info__description h3 {
-    font-size: calc(3vh + 2vw);
+    font-size: calc(3dvh + 2dvw);
     text-wrap: balance;
 }
 
@@ -395,7 +395,7 @@ body {
 .info__img {
     max-width: 50%;
     width: 768px;
-    max-height: 60vh;
+    max-height: 60dvh;
     overflow: hidden;
     object-fit: cover;
     border-radius: 30px;
@@ -418,7 +418,7 @@ body {
 }
 
 .ws {
-    font-size: 3vh;
+    font-size: 3dvh;
     font-style: italic;
     font-weight: 600;
     border-bottom: 2px solid #0000;
@@ -437,12 +437,12 @@ body {
         flex-direction: row;
         padding: 20px;
         background-color: transparent;
-        height: 90vh;
-        max-width: 70vh;
+        height: 90dvh;
+        max-width: 70dvw;
     }
 
     .info__data-container {
-        max-width: 30vh;
+        max-width: 30dvw;
         background-color: #FFF;
         display: flex;
         align-items: center;
@@ -463,7 +463,7 @@ body {
     }
 
     .info__img-container {
-        max-width: 40vh;
+        max-width: 40dvw;
         border-radius: 25px 0 0 25px;
         box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.803);
     }
@@ -472,8 +472,8 @@ body {
         max-width: 100%;
         height: 100%;
         object-fit: cover;
-        max-height: 100vh;
-        width: 40vh;
+        max-height: 100dvh;
+        width: 40dvw;
         border-radius: 25px 0 0 25px;
     }
 
@@ -496,7 +496,7 @@ body {
     box-shadow: 0px 0px 20px 8px #47a;
     background-color: #1f2023;
     color: white;
-    min-height: 100vh;
+    min-height: 100dvh;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -507,16 +507,16 @@ body {
 .dispositivos__project-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    max-width: 100vh;
+    max-width: 100dvw;
     margin: 0 auto;
     width: 100%;
     gap: 12px;
     padding: 12px;
-    min-height: 150vh;
+    min-height: 150dvh;
 }
 
 .dispositivos__title{
-    margin: 2vh auto;
+    margin: 2dvh auto;
 }
 
 .dispositivos__project {
@@ -609,19 +609,19 @@ body {
 }
 
 .dispositivos__title {
-    font-size: calc(2vh + 1.5vh );
+    font-size: calc(2dvh + 1.5dvw );
 }
 
 .dispositivos__subtitle {
-    font-size: calc(1.5vh + 1vh );
-    margin: 2vh auto;
+    font-size: calc(1.5dvh + 1dvw );
+    margin: 2dvh auto;
 }
 
 /* ---------- dispositivos QUERIES ---------- */
 
 @container dispositivos (min-width: 840px) {
     .dispositivos__project-container {
-        max-width: 70vh;
+        max-width: 70dvw;
         grid-template-columns: 1fr 1fr 1fr;
     }
     .dispositivos__project:nth-child(1) {
@@ -652,22 +652,22 @@ body {
 /*Mision y vision*/
 
 .mision__vision {
-    height: 100vh;
+    height: 100dvh;
     max-height: max-content;
 }
 
 .mision__vision__separator {
-    margin: 5vh auto;
+    margin: 5dvh auto;
     height: max-content;
-    width: 75vh;
+    width: 75dvw;
     display: flex;
     flex-direction: row;
-    gap: 5vh;
+    gap: 5dvw;
 }
 
 .mision__vision__item {
     flex-grow: 1;
-    height: 70vh;
+    height: 70dvh;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -681,32 +681,32 @@ body {
 }
 
 .mision__vision__title {
-    font-size:  calc(2vh + 1.5vh );
+    font-size:  calc(2dvh + 1.5dvw );
     color: #48e;
     font-style: italic;
     text-decoration: underline;
 }
 
 .mision__vision__text {
-    margin: 0 3vh;
+    margin: 0 3dvw;
     color:#ccccce;
-    font-size:  calc(1.5vh + 1vh );
+    font-size:  calc(1.5dvh + 1dvw );
     text-wrap: balance;
 }
 
 @media screen and (max-width:840px) {
     .mision__vision__separator {
         flex-direction: column;
-        width: 80vh;
-        max-height: 80vh;
+        width: 80dvw;
+        max-height: 80dvh;
     }
 }
 
 .redes{
     border-radius: 25px;
-    height: 10vh;
+    height: 10dvh;
     margin: auto;
-    width: 75vw;
+    width: 75dvw;
     background-color: #1f2023;
     transition: linear 0.4s;
     display: flex;
@@ -730,7 +730,7 @@ body {
 
 /*:::::Pie de Pagina*/
 .pie-pagina{
-    width: 100vh;
+    width: 100dvw;
     background-color: #1f2023;
 }
 .pie-pagina .grupo-1{
@@ -787,7 +787,7 @@ body {
 }
 
 .logo__footer {
-    max-width: 10vh;
+    max-width: 10dvw;
     min-width: 64px;
     filter: drop-shadow( 0 0 10px #0000);
     transition: 0.4s;
@@ -809,7 +809,7 @@ body {
 }
 
 .text-final, .box, .box-title {
-    font-size: calc(1.5vh + 0.7vh);
+    font-size: calc(1.5dvh + 0.7dvw);
 }
 
 @media screen and (max-width:840px){
@@ -821,7 +821,7 @@ body {
     }
 
     .box {
-        max-width: 80vh;
+        max-width: 80dvw;
         margin: auto;
     }
 }
