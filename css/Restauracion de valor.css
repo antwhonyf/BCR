@@ -155,7 +155,7 @@ nav {
     background-color: #002975;
     color: rgb(255, 255, 255);
     display: inline-flex;
-    width: 100dvw;
+    width: 100vw;
     align-items: center;
     justify-content: space-between;
     position: sticky;
@@ -246,8 +246,8 @@ nav li {
     display: none;
     background-color: #1f2023;
     position: absolute;
-    height: 115dvh;
-    width: 100dvw;
+    height: 115vh;
+    width: 100vw;
     z-index: -1;
 }
 
@@ -313,11 +313,11 @@ a {
     }
 
     .texto_bienvenida {
-        font-size: 3.5dvw;
+        font-size: 3.5vw;
     }
 
     .titulo_Principal {
-        font-size: 5dvw;
+        font-size: 5vw;
     }
 }
 
@@ -359,7 +359,7 @@ body {
 }
 
 .info__wrapper {
-    min-height: 90dvh;
+    min-height: 90vh;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -369,7 +369,7 @@ body {
 }
 
 .info__data-container {
-    margin: 0 auto 3dvh auto;
+    margin: 0 auto 3vh auto;
     height: 100%;
     max-width: 600px;
     padding: 12px;
@@ -378,12 +378,12 @@ body {
 }
 
 .info__description {
-    font-size: 2dvh;
+    font-size: 2vh;
     text-wrap: balance;
 }
 
 .info__description h3 {
-    font-size: calc(3dvh + 2dvw);
+    font-size: calc(3vh + 2vw);
     text-wrap: balance;
 }
 
@@ -395,7 +395,7 @@ body {
 .info__img {
     max-width: 50%;
     width: 768px;
-    max-height: 60dvh;
+    max-height: 60vh;
     overflow: hidden;
     object-fit: cover;
     border-radius: 30px;
@@ -418,7 +418,7 @@ body {
 }
 
 .ws {
-    font-size: 3dvh;
+    font-size: 3vh;
     font-style: italic;
     font-weight: 600;
     border-bottom: 2px solid #0000;
@@ -667,15 +667,13 @@ body {
 
 .mision__vision__item {
     flex-grow: 1;
-    height: max-content;
+    height: 70dvh;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     background-color: #1f2023;
-    justify-content: center;
+    justify-content: space-evenly;
     transition: linear 0.4s;
-    gap: 1dvh;
-    padding: 3dvw;
 }
 
 .mision__vision__item:hover {
@@ -683,16 +681,16 @@ body {
 }
 
 .mision__vision__title {
-    font-size:  calc(1.2dvh + 0.8dvw );
+    font-size:  calc(2dvh + 1.5dvw );
     color: #48e;
     font-style: italic;
     text-decoration: underline;
 }
 
 .mision__vision__text {
-    margin: 0 1dvw;
+    margin: 0 3dvw;
     color:#ccccce;
-    font-size:  2dvh;
+    font-size:  calc(1.5dvh + 1dvw );
     text-wrap: balance;
 }
 
@@ -700,7 +698,7 @@ body {
     .mision__vision__separator {
         flex-direction: column;
         width: 80dvw;
-        max-height: 100dvh;
+        max-height: 80dvh;
     }
 }
 
