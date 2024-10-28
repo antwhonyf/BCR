@@ -12,6 +12,13 @@
     <link rel="shortcut icon" href="img/ICONOS/6_1.ico" type="image/x-icon">
     <!-- git add . - git commit -m "Actualizacion" - git pusg origin main -->
 </head>
+<script>
+    document.getElementById('link-button').addEventListener('click', function(event) {
+      event.preventDefault();
+      const checkbox = document.getElementById('open-menu');
+      checkbox.checked = !checkbox.checked;
+    });
+  </script>
 <body>
     <header class="layaout" id="Inicio">
 
@@ -34,7 +41,11 @@
 
         </div>
     </header>
-    
+    <script>
+        function closeMenu() {
+            document.getElementById('open-menu').checked = false;
+        }
+    </script>
     <header class="header">
         <input type="checkbox" id="open-menu" class="header__checkbox">
         <label for="open-menu" class="header__open-nav-button" role="button">=</label>
@@ -44,11 +55,11 @@
         </div>
         <nav class="nav, header__nav">
             <ul class="lista, header__nav-list">
-                <a href="#Inicio"><li class="Inicio, header__nav-item">Inicio</li></a>
-                <a href="#Nosotros"><li class="Nosotros, header__nav-item">Nosotros</li></a>
-                <a href="#Dispositivos"><li class="Dispositivos, header__nav-item">Dispositivos</li></a>
-                <a href="#Mision"><li class="Mision, header__nav-item">Mision</li></a>
-                <a href="#Vision"><li class="Vision, header__nav-item">Vision</li></a>
+                <a href="#Inicio" onclick="closeMenu()"><li class="Inicio, header__nav-item">Inicio</li></a>
+                <a href="#Nosotros" onclick="closeMenu()"><li class="Nosotros, header__nav-item">Nosotros</li></a>
+                <a href="#Dispositivos" onclick="closeMenu()"><li class="Dispositivos, header__nav-item">Dispositivos</li></a>
+                <a href="#Mision" onclick="closeMenu()"><li class="Mision, header__nav-item">Mision</li></a>
+                <a href="#Vision" onclick="closeMenu()"><li class="Vision, header__nav-item">Vision</li></a>
             </ul>
         </nav>
     </header>
