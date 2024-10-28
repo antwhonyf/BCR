@@ -662,7 +662,7 @@ body {
 
 .mision__vision__item {
     flex-grow: 1;
-    height: 70dvh;
+    height: 85dvh;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -676,7 +676,7 @@ body {
 }
 
 .mision__vision__title {
-    font-size:  calc(2dvh + 1.5dvw );
+    font-size:  calc(1.2dvh + 0.8dvw );
     color: #48e;
     font-style: italic;
     text-decoration: underline;
@@ -685,7 +685,7 @@ body {
 .mision__vision__text {
     margin: 0 3dvw;
     color:#ccccce;
-    font-size:  calc(1.5dvh + 1dvw );
+    font-size:  calc(1dvh + 0.5dvw );
     text-wrap: balance;
 }
 
@@ -693,7 +693,7 @@ body {
     .mision__vision__separator {
         flex-direction: column;
         width: 80dvw;
-        max-height: 80dvh;
+        max-height: 100dvh;
     }
 }
 
