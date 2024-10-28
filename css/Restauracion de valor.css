@@ -662,7 +662,7 @@ body {
 
 .mision__vision__item {
     flex-grow: 1;
-    height: 80dvh;
+    height: max-content;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -670,6 +670,7 @@ body {
     justify-content: center;
     transition: linear 0.4s;
     gap: 1dvh;
+    padding: 3dvw;
 }
 
 .mision__vision__item:hover {
@@ -686,7 +687,7 @@ body {
 .mision__vision__text {
     margin: 0 1dvw;
     color:#ccccce;
-    font-size:  calc(1dvh + 0.5dvw );
+    font-size:  2dvh;
     text-wrap: balance;
 }
 
